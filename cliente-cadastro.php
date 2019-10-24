@@ -1,13 +1,10 @@
+<?php include "includes/cliente-cadastrar.php"; ?>
 <?php include "includes/header.php"; ?>
 
-    
-      <h1>PAGINA INICIAL</h1>
-
-      <form class="form-horizontal">
+<form class="form-horizontal">
 <fieldset>
-
 <!-- Form Name -->
-<legend>Form Name</legend>
+<legend>Cadastro</legend>
 
 <!-- Text input-->
 <div class="form-group">

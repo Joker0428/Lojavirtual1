@@ -1,6 +1,6 @@
 <?php
-  include 'mode/conexao.php';
-  include 'model/cliente.calss.php';
+  include 'model/conexao.php';
+  include 'model/cliente.class.php';
   include 'dao/cliente.dao.php';
 
   if ($_POST){
