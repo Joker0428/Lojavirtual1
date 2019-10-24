@@ -69,4 +69,5 @@ class Cliente{
 	public function setCep($cep){
 		$this->cep = $cep;
 	}
+}
 ?>    
