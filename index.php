@@ -1,9 +1,9 @@
-<?php include "includes/header.php"; ?>
+<?php include "admin/view/header.php"; ?>
 
     
       <h1>PAGINA INICIAL</h1>
     
     
-<?php include "includes/footer.php"; ?>
+<?php include "admin/view/footer.php"; ?>
    
 
