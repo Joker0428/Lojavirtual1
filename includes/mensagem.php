@@ -1,10 +1,8 @@
 <?php
    if (isset($msg)){
+     echo '<div class="alert alert-primary" role="alert">';
      echo $msg;
-     echo '</div>'
-   }   
+     echo '</div>';
+    }   
   ?>
 
-<div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
-</div>

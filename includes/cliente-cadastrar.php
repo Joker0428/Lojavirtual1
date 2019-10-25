@@ -7,18 +7,18 @@
 
     try{
         $obj = new Cliente();
-        $obj->setNome($_Post['nome']);
-        $obj->setEmail($_Post['email']);
-        $obj->setTelefone($_Post['telefone']);
-        $obj->setCpf($_Post['cpf']);
-        $obj->setEndereco($_Post['endereco']);
-        $obj->setCep($_Post['cep']);
+        $obj->setNome($_POST['nome']);
+        $obj->setEmail($_POST['email']);
+        $obj->setTelefone($_POST['telefone']);
+        $obj->setCpf($_POST['cpf']);
+        $obj->setEndereco($_POST['endereco']);
+        $obj->setCep($_POST['cep']);
         
         $DAO = new DAOCliente();
-        $DAO-> cadastrar($obj);
+        $msg = $DAO-> cadastrar($obj);
 
     }catch(Exception $e){
-        echo $e->getMessage();
+       $msg = $e->getMessage();
     }
   }
 
