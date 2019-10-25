@@ -71,5 +71,5 @@
 </fieldset>
 </form>
     
-    
+<?php include "includes/mensagem.php"; ?>
 <?php include "includes/footer.php"; ?>
